@@ -16,20 +16,18 @@ converter.setProperty('volume', 0.7)
 
 voices = converter.getProperty('voices')
 
-
 for voice in voices:
-	# to get the info. about various voices in our PC
-     print("Voice:")
-     print("ID: %s" % voice.id)
-     print("Name: %s" % voice.name)
-     print("Age: %s" % voice.age)
-     print("Gender: %s" % voice.gender)
-     print("Languages Known: %s" % voice.languages)
-     converter.setProperty('voice', voice.id)
-     converter.say("Hello GeeksforGeeks")
-     converter.say("I'm also a geek")
-     converter.runAndWait()
-
+    # to get the info. about various voices in our PC
+    print("Voice:")
+    print("ID: %s" % voice.id)
+    print("Name: %s" % voice.name)
+    print("Age: %s" % voice.age)
+    print("Gender: %s" % voice.gender)
+    print("Languages Known: %s" % voice.languages)
+    converter.setProperty('voice', voice.id)
+    converter.say("Hello GeeksforGeeks")
+    converter.say("I'm also a geek")
+    converter.runAndWait()
 
 # Queue the entered text
 # There will be a pause between
