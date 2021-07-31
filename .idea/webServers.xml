@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="df5ae6cf-384e-4f66-b2f4-d30b56ef8c35" name="raspi" url="http://172.0.100.74">
+        <fileTransfer rootFolder="/home/pi" accessType="SFTP" host="172.0.100.74" port="22" sshConfigId="701e50d3-3d59-4895-a280-d3accaa59034" sshConfig="pi@172.0.100.74:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
