@@ -10,13 +10,13 @@ converter.setProperty('rate', 150)
 converter.setProperty('volume', 0.7)
 
 # List of jokes
-jokes = ["What kind of tea is hard to swallow? reality !",
-         "How does a train eat? it goes chew chew ",
+jokes = ["What kind of tea is hard to swallow? reality!",
+         "How does a train eat? it goes chew chew!",
          "Why can't you hear a Pterodactyl going to the bathroom? Because the P is silent.",
          "Whats blue and smells like red paint? Blue paint.",
-         "what colour is a spoon? spoon",
-         "whats grey and cant fly? a parking lot",
-         "Where do mermaids look for jobs? The kelp-wanted section"]
+         "What colour is a spoon? Spoon!",
+         "Whats grey and cant fly? A parking lot!",
+         "Where do mermaids look for jobs? The kelp-wanted section!"]
 
 
 # Function to listen to mic and return text
