@@ -2,11 +2,12 @@ import random
 import pyttsx3  # convert text to speech
 import speech_recognition as sr  # convert speech to text
 import datetime  # for fetching date and time
-import wolframalpha  # to calculate strings into formula
+
 
 # Initialize text to speech
 converter = pyttsx3.init()
-converter.setProperty('rate', 150)
+converter.setProperty('voice', 'english-us')
+converter.setProperty('rate', 140)
 converter.setProperty('volume', 0.7)
 
 # List of jokes
@@ -41,9 +42,10 @@ def respond(output):
     converter.runAndWait()
 
 
+
 # Main Program
 if __name__ == '__main__':
-    respond("Hi, I am Chatbot your personal assistant")
+    respond("Hi, I am Bob your personal assistant")
 
     while 1:
         respond("How can I help you?")
@@ -52,32 +54,27 @@ if __name__ == '__main__':
         if text == 0:
             continue
 
-        if "bye" in str(text) or "goodbye" in str(text) or "stop" in str(text):
-            respond("Ok bye")
+        if "bye" in text or "goodbye" in text or "stop" in text:
+            respond("Good bye")
             break
 
         elif 'joke' in text:
             random_joke = random.choice(jokes)
             respond(random_joke)
 
-        elif 'weather' or 'umbrella' in text:
+        elif 'weather' in text or 'rain' in text:
             respond("Just look out of the window!")
+
+        elif 'love' in text:
+            respond("I'm only a computer.")
 
         elif 'time' in text:
             strTime = datetime.datetime.now().strftime("%H:%M")
             respond(f"the time is {strTime}")
 
         elif 'date' in text:
-            strDate = datetime.datetime.now().strftime("%d %b")
-            respond(f"the date is {strDate}")
-
-        # elif "calculate" or "what is" in text:
-        # question = listen()
-        # app_id = "678E4V-X9U4UUVR85"
-        # client = wolframalpha.Client(app_id)
-        # res = client.query(text)
-        # answer = next(res.results).text
-        # respond("The answer is " + answer)
+            strDate = datetime.datetime.now().strftime("%d %B, %Y")
+            respond(f"today's date is {strDate}")
 
         else:
             respond("I'm not sure what to do")
