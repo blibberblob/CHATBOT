@@ -19,6 +19,15 @@ jokes = ["What kind of tea is hard to swallow? reality!",
          "Whats grey and cant fly? A parking lot!",
          "Where do mermaids look for jobs? The kelp-wanted section!"]
 
+# List of feelings
+how_are_you = ["im great!",
+         "im good!",
+         "im okay!",
+         "meh!",
+         "not great!",
+         "not to good!",
+         "terible"]
+
 
 # Function to listen to mic and return text
 def listen():
@@ -65,8 +74,8 @@ if __name__ == '__main__':
         elif 'weather' in text or 'rain' in text:
             respond("Just look out of the window!")
 
-        elif 'love' in text:
-            respond("I'm only a computer.")
+        elif 'Naz' in text:
+            respond("give Naz a guinea pig, give Naz a guinea pig Come on, papa")
 
         elif 'time' in text:
             strTime = datetime.datetime.now().strftime("%H:%M")
@@ -76,5 +85,15 @@ if __name__ == '__main__':
             strDate = datetime.datetime.now().strftime("%d %B, %Y")
             respond(f"today's date is {strDate}")
 
+        elif 'how are you' in text:
+            random_how_are_you = random.choice(how_are_you)
+            respond(random_how_are_you)
+            respond("how about you?")
+
         else:
             respond("I'm not sure what to do")
+
+
+
+
+
