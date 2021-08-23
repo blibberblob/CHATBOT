@@ -54,7 +54,7 @@ def respond(output):
 
 # Main Program
 if __name__ == '__main__':
-    respond("Hi, I am Bob Something your personal assistant")
+    respond("Hi, I am Bob your personal assistant")
 
     while 1:
         respond("How can I help you?")
