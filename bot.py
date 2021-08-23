@@ -11,13 +11,8 @@ converter.setProperty('rate', 140)
 converter.setProperty('volume', 0.7)
 
 # List of jokes
-jokes = ["What kind of tea is hard to swallow? - Reality!",
-         "How does a train eat? - it goes chew chew!",
-         "Why can't you hear a Pterodactyl going to the bathroom?  - Because the P is silent.",
-         "Whats blue and smells like red paint? - Blue paint.",
-         "What colour is a spoon? - Spoon!",
-         "Whats grey and cant fly? - A parking lot!",
-         "Where do mermaids look for jobs? - The kelp-wanted section!"]
+jokes = ["What kind of tea is hard to swallow? - Reality! ha ha ha"]
+
 
 # List of feelings
 how_are_you = ["im great!",
