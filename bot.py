@@ -14,7 +14,7 @@ converter.setProperty('volume', 0.7)
 jokes = ["What kind of tea is hard to swallow? reality!",
          "How does a train eat? it goes chew chew!",
          "Why can't you hear a Pterodactyl going to the bathroom? Because the P is silent.",
-         "Whats blue and smells like red paint? Blue paint.",
+         "Whats blue and smells like red paint? - Blue paint.",
          "What colour is a spoon? Spoon!",
          "Whats grey and cant fly? A parking lot!",
          "Where do mermaids look for jobs? The kelp-wanted section!"]

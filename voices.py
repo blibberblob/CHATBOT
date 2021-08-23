@@ -25,8 +25,8 @@ for voice in voices:
     print("Gender: %s" % voice.gender)
     print("Languages Known: %s" % voice.languages)
     converter.setProperty('voice', voice.id)
-    converter.say("Hello GeeksforGeeks")
-    converter.say("I'm also a geek")
+    converter.say("Whats blue and smells like red paint? - Blue paint!")
+    converter.say("How can I help you?")
     converter.runAndWait()
 
 # Queue the entered text
