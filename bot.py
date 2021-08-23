@@ -7,8 +7,8 @@ import datetime  # for fetching date and time
 # Initialize text to speech
 converter = pyttsx3.init()
 converter.setProperty('voice', 'english')
-converter.setProperty('rate', 140)
-converter.setProperty('volume', 0.7)
+converter.setProperty('rate', 120)
+converter.setProperty('volume', 1)
 
 # List of jokes
 jokes = ["What kind of tea is hard to swallow? - Reality! - Ha Ha Ha",
