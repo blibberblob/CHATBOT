@@ -6,7 +6,7 @@ import datetime  # for fetching date and time
 
 # Initialize text to speech
 converter = pyttsx3.init()
-converter.setProperty('voice', 'english-us')
+converter.setProperty('voice', 'english')
 converter.setProperty('rate', 140)
 converter.setProperty('volume', 0.7)
 
