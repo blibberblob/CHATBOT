@@ -3,4 +3,4 @@
 This is a holiday project for my school.
 
 
-
+![P.A.L](images/pal.png)
