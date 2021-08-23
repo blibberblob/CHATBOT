@@ -54,7 +54,7 @@ def respond(output):
 
 # Main Program
 if __name__ == '__main__':
-    respond("Hi, I am Bob your personal assistant")
+    respond("Hi, I am PAL P.A.L your personal assistant")
 
     while 1:
         respond("How can I help you?")
@@ -71,11 +71,8 @@ if __name__ == '__main__':
             random_joke = random.choice(jokes)
             respond(random_joke)
 
-        elif 'weather' in text or 'rain' in text:
+        elif 'weather' in text or 'rain' in text or 'umbrella' in text:
             respond("Just look out of the window!")
-
-        elif 'wait a minute' in text or 'rain' in text:
-            respond("No I can't!")
 
         elif 'Naz' in text:
             respond("give Naz a guinea pig, give Naz a guinea pig Come on, papa")
