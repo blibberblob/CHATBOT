@@ -15,7 +15,7 @@ jokes = ["What kind of tea is hard to swallow? - Reality! - Ha Ha Ha",
          "How does a train eat? - it goes chew chew! Ha Ha Ha",
          "Why can't you hear a Pterodactyl going to the bathroom?  - Because the P is silent. - Ha Ha Ha",
          "Whats blue and smells like red paint? - Blue paint. - Ha Ha Ha",
-         "What colour is a spoon? - Spoon!  ha ha - I'm sooo funny",
+         "What colour is a spoon? - Spoon!  ha ha - I'm so funny",
          "Whats grey and cant fly? - A parking lot! - Ha Ha Ha",
          "Where do mermaids look for jobs? - The kelp-wanted section! - Ha Ha Ha"]
 
@@ -29,13 +29,13 @@ how_are_you = ["im great!",
          "terible"]
 
 # List of compliment
-compiments = ["you look nice!",
-         "i like you hair!",
-         "i have no comment!",
-         "yesterday you looked rlly nice",
-         "your shoes are nice",
-         "you smell really nice, is what i would say if i had a nose",
-         "i am really gald we met"]
+compiments = ["You look nice!",
+         "I like you hair!",
+         "I have no comment!",
+         "Yesterday you looked really nice",
+         "Your shoes are nice",
+         "You smell really nice, - is what I would say if i had a nose",
+         "I am really gald we met"]
 
 # Function to listen to mic and return text
 def listen():
