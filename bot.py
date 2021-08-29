@@ -82,8 +82,8 @@ if __name__ == '__main__':
         elif 'weather' in text or 'rain' in text or 'umbrella' in text:
             respond("Just look out of the window!")
 
-        elif 'guinea pig' in text:
-            respond("Give Naz a guinea pig - Give Naz a guinea pig - Come on papa")
+        elif 'karen' in text:
+            respond("oh sorry - my kids cant hear me calling you a bitch - they cant hear me because there watching kidsbop")
 
         elif 'time' in text:
             strTime = datetime.datetime.now().strftime("%H:%M")
