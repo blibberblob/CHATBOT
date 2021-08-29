@@ -82,7 +82,7 @@ if __name__ == '__main__':
         elif 'weather' in text or 'rain' in text or 'umbrella' in text:
             respond("Just look out of the window!")
 
-        elif 'give' in text:
+        elif 'papa' in text:
             respond("give Naz a guinea pig, give Naz a guinea pig Come on, papa")
 
         elif 'time' in text:
@@ -96,7 +96,7 @@ if __name__ == '__main__':
         elif 'how are you' in text:
             random_how_are_you = random.choice(how_are_you)
             respond(random_how_are_you)
-            respond("how about you?")
+            respond("How about you?")
 
         elif 'compliment' in text:
             random_compliment = random.choice(compiments)
