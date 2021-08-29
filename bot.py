@@ -20,13 +20,13 @@ jokes = ["What kind of tea is hard to swallow? - Reality! - Ha Ha Ha",
          "Where do mermaids look for jobs? - The kelp-wanted section! - Ha Ha Ha"]
 
 # List of feelings
-how_are_you = ["im great!",
-         "im good!",
-         "im okay!",
-         "meh!",
-         "not great!",
-         "not to good!",
-         "terible"]
+how_are_you = ["I am great!",
+         "I am good!",
+         "i am okay!",
+         "Meh!",
+         "Not great!",
+         "Not to good!",
+         "Terible"]
 
 # List of compliment
 compiments = ["You look nice!",
