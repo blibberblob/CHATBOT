@@ -82,7 +82,7 @@ if __name__ == '__main__':
         elif 'weather' in text or 'rain' in text or 'umbrella' in text:
             respond("Just look out of the window!")
 
-        elif 'Naz' in text:
+        elif 'give' in text:
             respond("give Naz a guinea pig, give Naz a guinea pig Come on, papa")
 
         elif 'time' in text:
